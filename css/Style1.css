@@ -1,0 +1,12 @@
+body{
+    background-color: brown;
+}
+.formulario{
+    background-color: burlywood;
+    width: 50%;
+    height: 20vw;
+}
+.formulario input{
+    margin: 7% 25% 0px 40%;
+    border-radius: 10px;
+}

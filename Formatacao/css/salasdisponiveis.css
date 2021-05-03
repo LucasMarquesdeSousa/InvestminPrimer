@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.all-sala{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sala{
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+}
+.sala .num-sala{
+    height: 100%;
+    width: 10%;
+    align-items: center; 
+    text-align: center; 
+    border-right: 2px solid black;
+}
+.sala .num-sala h1{
+    margin-top: 10%;
+}
+.sala .name-sala{
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.sala .name-sala h1{
+    margin-top: 5%;
+}
+.sala .criador-sala{
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.sala .criador-sala h1{
+    margin-top: 5%;
+}
+.sala .botao-sala{
+    height: 100%;
+    width: 10%;
+}
+.sala .botao-sala button{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(194, 194, 194, 0);
+    border: 1px solid black;
+}
+.sala .botao-sala button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}

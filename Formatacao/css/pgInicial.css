@@ -1,0 +1,36 @@
+.contanier{
+    display: block;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    margin: 150px 20%;
+}
+ .contanier form{
+    display: inline-block;
+    color: rgb(105, 105, 105);
+}
+
+.contanier form input{
+    margin-bottom: 1%;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(170, 170, 170, 1);
+    color: black;
+}
+.contanier form a{
+    background-color: rgb(141, 111, 106);
+}
+.contanier form  h1{
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+input::-moz-placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
+.contanier form #bot:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+}
